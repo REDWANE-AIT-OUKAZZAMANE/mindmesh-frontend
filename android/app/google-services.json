@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "173424539818",
+    "project_id": "mindmesh-49900",
+    "storage_bucket": "mindmesh-49900.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173424539818:android:e1e9a0a5a0cf19f076f8d3",
+        "android_client_info": {
+          "package_name": "com.example.mindmesh"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVX_GN49J3NqEzmSjPZEHu6KxumIunnCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
