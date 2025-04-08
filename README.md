@@ -1,6 +1,6 @@
 # MindMesh Frontend
 
-This is the frontend application for MindMesh, built with Next.js and React.
+This is the frontend application for MindMesh, built with Flutter.
 
 ## Features
 
@@ -9,13 +9,15 @@ This is the frontend application for MindMesh, built with Next.js and React.
 - User authentication and authorization
 - Profile management
 - Interactive mind mapping visualization
+- Cross-platform support (iOS and Android)
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js (v14 or later)
-- npm or yarn
+- Flutter SDK (latest stable version)
+- Android Studio / Xcode (for platform-specific development)
+- Git
 
 ### Installation
 
@@ -26,32 +28,32 @@ git clone https://github.com/REDWANE-AIT-OUKAZZAMANE/mindmesh-frontend.git
 
 2. Install dependencies:
 ```bash
-npm install
-# or
-yarn install
+flutter pub get
 ```
 
-3. Create a `.env.local` file in the root directory and add the following environment variables:
+3. Create a `.env` file in the root directory and add the following environment variables:
 ```
-NEXT_PUBLIC_API_URL=http://localhost:8080
+API_URL=http://localhost:8080
 ```
 
-4. Start the development server:
+4. Run the application:
 ```bash
-npm run dev
-# or
-yarn dev
+flutter run
 ```
 
-The application will be available at `http://localhost:3000`.
+The application will be available on your connected device or emulator.
 
 ## Project Structure
 
-- `/components` - Reusable React components
-- `/pages` - Next.js pages and API routes
-- `/styles` - Global styles and CSS modules
-- `/utils` - Utility functions and helpers
-- `/public` - Static assets
+- `/lib` - Main application code
+  - `/services` - API and service classes
+  - `/screens` - UI screens
+  - `/widgets` - Reusable widgets
+  - `/models` - Data models
+  - `/utils` - Utility functions
+- `/android` - Android-specific code
+- `/ios` - iOS-specific code
+- `/assets` - Images, fonts, and other static assets
 
 ## Contributing
 
